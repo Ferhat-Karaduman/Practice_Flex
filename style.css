@@ -68,3 +68,36 @@ nav .right i{
 }
 
 /* -/-/-/-/-//-/-/-/-//-//-  */
+
+header{
+    background-color: #f8f5f1;
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+section.img{
+flex: 1;
+display: flex;
+justify-content: center;
+/* background-color: yellow; */
+
+}
+
+section.text{
+flex: 2;
+/* background-color: blue; */
+flex-basis: 300px;
+}
+
+section.img img{
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+section.text h2,p{
+    line-height: 2;
+}
